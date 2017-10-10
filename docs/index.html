@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Slick Demo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .slider-slide {
+      width: 100%;
+      height: 200px;
+      background: #000;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>with webpack</h1>
+  <div class="slider">
+    <div class="slider-slide">your content</div>
+    <div class="slider-slide">your content</div>
+    <div class="slider-slide">your content</div>
+  </div>
+
+  <h1>without webpack</h1>
+  <div class="slider2">
+    <div class="slider-slide">your content</div>
+    <div class="slider-slide">your content</div>
+    <div class="slider-slide">your content</div>
+  </div>
+
+  <script src="bundle.js"></script>
+</body>
+</html>
